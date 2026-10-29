@@ -8,5 +8,16 @@
     "url": "https://lotsofsounds.com"
   },
   "homepage": "https://lotsofsounds.com/docs/cli",
-  "keywords": ["sound-effects", "sfx", "audio", "cc0", "royalty-free", "game-audio", "ui-sounds"]
+  "keywords": [
+    "sound-effects",
+    "sfx",
+    "audio",
+    "cc0",
+    "royalty-free",
+    "game-audio",
+    "ui-sounds"
+  ],
+  "license": "MIT",
+  "privacyPolicyUrl": "https://lotsofsounds.com/privacy",
+  "icon": ".claude-plugin/icon.png"
 }
