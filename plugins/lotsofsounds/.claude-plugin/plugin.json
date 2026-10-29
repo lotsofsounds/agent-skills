@@ -19,5 +19,17 @@
   ],
   "license": "MIT",
   "privacyPolicyUrl": "https://lotsofsounds.com/privacy",
-  "icon": ".claude-plugin/icon.png"
+  "icon": ".claude-plugin/icon.png",
+  "displayName": "Lots of Sounds",
+  "documentationUrl": "https://lotsofsounds.com/docs/cli",
+  "supportUrl": "https://lotsofsounds.com/contact",
+  "termsOfServiceUrl": "https://lotsofsounds.com/terms",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Lots of Sounds API key",
+      "description": "Optional. A Pro API key (starts with los_) lets the MCP tools search the full catalog. Free samples work with no key. Get one with `npx lotsofsounds login` or at https://lotsofsounds.com/dashboard/api-keys.",
+      "sensitive": true
+    }
+  }
 }
