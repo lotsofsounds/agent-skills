@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "lotsofsounds": {
+      "type": "http",
+      "url": "https://api.lotsofsounds.com/mcp",
+      "headers": {
+        "x-api-key": "${LOTSOFSOUNDS_API_KEY:-}"
+      }
+    }
+  }
+}

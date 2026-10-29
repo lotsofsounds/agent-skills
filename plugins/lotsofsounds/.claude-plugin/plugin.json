@@ -1,0 +1,12 @@
+{
+  "name": "lotsofsounds",
+  "version": "0.1.0",
+  "description": "Find and add CC0 sound effects, UI sounds, game audio and ambience to a project. No credit needed.",
+  "author": {
+    "name": "Lots of Sounds",
+    "email": "team@lotsofsounds.com",
+    "url": "https://lotsofsounds.com"
+  },
+  "homepage": "https://lotsofsounds.com/docs/cli",
+  "keywords": ["sound-effects", "sfx", "audio", "cc0", "royalty-free", "game-audio", "ui-sounds"]
+}

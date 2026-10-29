@@ -1,0 +1,19 @@
+{
+  "name": "lotsofsounds",
+  "owner": {
+    "name": "Lots of Sounds",
+    "email": "team@lotsofsounds.com"
+  },
+  "metadata": {
+    "description": "CC0 sound effects for coding agents."
+  },
+  "plugins": [
+    {
+      "name": "lotsofsounds",
+      "source": "./plugins/lotsofsounds",
+      "description": "Find and add CC0 sound effects, UI sounds, game audio and ambience to a project.",
+      "category": "media",
+      "homepage": "https://lotsofsounds.com/docs/cli"
+    }
+  ]
+}
