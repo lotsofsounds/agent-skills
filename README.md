@@ -39,6 +39,24 @@ or sign up.
 
 Docs: https://lotsofsounds.com/docs/cli
 
+## Data and services
+
+The skill runs the `lotsofsounds` CLI. The CLI and the MCP server send data
+to these services:
+
+| Service | What it receives |
+|---|---|
+| `registry.npmjs.org` | The request to download the `lotsofsounds` package (`npx`) |
+| `api.lotsofsounds.com` | Search keywords, sound ids, the API key, and the login code during `login` |
+| Sound file host (a signed CloudFront or S3 link from the API) | The download request for the sound file |
+
+- The CLI saves the API key and the account email in
+  `~/.config/lotsofsounds/config.json`. Only the user can read this file.
+- The MCP API key is kept in Claude Code's secure storage.
+- No project files or code leave the user's machine.
+- Lots of Sounds keeps API usage records, with search keywords, to run and
+  improve the service.
+
 ## Privacy and license
 
 - Privacy policy: https://lotsofsounds.com/privacy
